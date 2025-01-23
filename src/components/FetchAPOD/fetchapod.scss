@@ -8,11 +8,12 @@
 }
 
 .apod-item {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
   width: 300px;
-  height: 100%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond */
   transition: transform 0.2s; /* Transition pour l'effet de survol */
@@ -37,6 +38,10 @@
 .apod-item p {
   font-size: 1rem;
   color: black;
+}
+
+.comments-section {
+  margin-top: auto; /* Pousse la section des commentaires vers le bas */
 }
 
 .page-title {
