@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './404Page.scss';
+import './404page.scss';
 
 export default function NotFound() {
   const navigate = useNavigate();
