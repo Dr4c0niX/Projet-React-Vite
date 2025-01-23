@@ -1,0 +1,57 @@
+.comments-section {
+    margin-top: 20px;
+  }
+  
+  .comments-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .comments-section form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .comments-section textarea {
+    resize: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .comments-section button {
+    align-self: flex-end;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .comments-section button:hover {
+    background-color: #575f67;
+  }
+  
+  .comments-list .comment {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .comments-list .comment strong {
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .comments-list .comment small {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .comments-list .comment p {
+    margin: 5px 0;
+  }

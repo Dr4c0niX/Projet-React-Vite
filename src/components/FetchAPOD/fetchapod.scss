@@ -1,0 +1,47 @@
+.apod-list__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Centrer les éléments */
+  padding: 20px; /* Ajouter du padding */
+  border-radius: 10px; /* Bords arrondis */
+}
+
+.apod-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond */
+  transition: transform 0.2s; /* Transition pour l'effet de survol */
+}
+
+.apod-item:hover {
+  transform: scale(1.05); /* Effet de survol */
+}
+
+.apod-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Espace en bas de l'image */
+}
+
+.apod-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px; /* Espace en bas du titre */
+}
+
+.apod-item p {
+  font-size: 1rem;
+  color: black;
+}
+
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: white;
+}
