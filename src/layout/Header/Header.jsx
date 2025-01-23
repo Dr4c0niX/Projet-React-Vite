@@ -17,7 +17,7 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <Link to="/apodlist" className="nav-link">
-                            Articlesss
+                            Articles
                         </Link>
                         <Link to="/contact" className="nav-link">
                             Contact
