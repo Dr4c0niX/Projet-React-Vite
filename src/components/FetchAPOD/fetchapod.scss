@@ -21,18 +21,20 @@
 
 .apod-item:hover {
   transform: scale(1.05); /* Effet de survol */
-}
+} 
 
 .apod-image {
   width: 100%;
-  height: auto;
+  height: 200px; /* Hauteur fixe pour toutes les images */
+  object-fit: cover; /* Remplir le conteneur sans déformer l'image */
   border-radius: 5px;
   margin-bottom: 10px; /* Espace en bas de l'image */
 }
 
 .apod-item h3 {
+  height: 3rem;
   font-size: 1.5rem;
-  margin-bottom: 10px; /* Espace en bas du titre */
+  margin-bottom: 7%; /* Espace en bas du titre */
 }
 
 .apod-item p {
